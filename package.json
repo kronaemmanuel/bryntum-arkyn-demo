@@ -1,0 +1,63 @@
+{
+  "name": "template",
+  "description": "React template",
+  "version": "5.3.4",
+  "author": {
+    "name": "Bryntum",
+    "url": "https://bryntum.com",
+    "email": "info@bryntum.com"
+  },
+  "license": "commercial",
+  "homepage": "./",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "vite",
+    "postinstall": "postinstall",
+    "server": "node server.js"
+  },
+  "postinstall": {
+    "node_modules/@bryntum/demo-resources/images/favicon.png": "copy public/favicon.png",
+    "node_modules/@bryntum/demo-resources/images/users/*": "copy public/users/",
+    "node_modules/@bryntum/gantt/*.css": "copy public/themes/",
+    "node_modules/@bryntum/gantt/fonts/*": "copy public/themes/fonts/"
+  },
+  "dependencies": {
+    "@bryntum/demo-resources": "1.2.0",
+    "@bryntum/gantt": "5.4.0",
+    "@bryntum/gantt-react": "5.4.0",
+    "express": "4.18.2",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "~18.0.28",
+    "@types/react-dom": "~18.0.11",
+    "@vitejs/plugin-react": "~3.1.0",
+    "postinstall": "~0.7.4",
+    "sass": "~1.42.0",
+    "typescript": "~4.9.3",
+    "vite": "~4.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig-disabled": {
+    "extends": [
+      "react-app"
+    ]
+  }
+}

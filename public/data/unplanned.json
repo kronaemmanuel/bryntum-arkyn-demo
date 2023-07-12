@@ -1,0 +1,68 @@
+[
+  {
+    "id"           : 101,
+    "name"         : "Fun task",
+    "duration"     : 4,
+    "iconCls"      : "b-fa b-fa-fw b-fa-beer"
+  },
+  {
+    "id"           : 102,
+    "name"         : "Medium fun task",
+    "duration"     : 8,
+    "iconCls"      : "b-fa b-fa-fw b-fa-cog"
+  },
+  {
+    "id"           : 103,
+    "name"         : "Outright boring task",
+    "duration"     : 2,
+    "iconCls"      : "b-fa b-fa-fw b-fa-book"
+  },
+  {
+    "id"           : 104,
+    "name"         : "Inspiring task",
+    "duration"     : 2,
+    "iconCls"      : "b-fa b-fa-fw b-fa-book"
+  },
+  {
+    "id"           : 105,
+    "name"         : "Mysterious task",
+    "duration"     : 2,
+    "iconCls"      : "b-fa b-fa-fw b-fa-question"
+  },
+  {
+    "id"           : 106,
+    "name"         : "Answer forum question",
+    "duration"     : 4,
+    "iconCls"      : "b-fa b-fa-fw b-fa-life-ring"
+  },
+  {
+    "id"           : 107,
+    "name"         : "Gym",
+    "duration"     : 1,
+    "iconCls"      : "b-fa b-fa-fw b-fa-dumbbell"
+  },
+  {
+    "id"           : 109,
+    "name"         : "Book flight",
+    "duration"     : 7,
+    "iconCls"      : "b-fa b-fa-fw b-fa-plane"
+  },
+  {
+    "id"           : 110,
+    "name"         : "Customer support call",
+    "duration"     : 3,
+    "iconCls"      : "b-fa b-fa-fw b-fa-phone"
+  },
+  {
+    "id"           : 111,
+    "name"         : "Angular bug fix",
+    "duration"     : 3,
+    "iconCls"      : "b-fa b-fa-fw b-fa-bug"
+  },
+  {
+    "id"           : 112,
+    "name"         : "React feature fix",
+    "duration"     : 2,
+    "iconCls"      : "b-fa b-fa-fw b-fa-cog"
+  }
+]
