@@ -11,9 +11,6 @@ export default class Task extends TaskModel {
     static $name = 'Task';
 
     static defaults = {
-        // In this demo, default duration for tasks will be days
-        durationUnit : 'day',
-
         // Use a default name, for better look in the grid if unassigning a new event
         name : 'New event',
 
